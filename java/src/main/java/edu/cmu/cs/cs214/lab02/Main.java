@@ -4,7 +4,9 @@ import edu.cmu.cs.cs214.lab02.shapes.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(2, 3);
+        final int width = 3;
+        final int height = 2;
+        Rectangle rectangle = new Rectangle(height, width);
 
         Renderer renderer = new Renderer(rectangle);
 
